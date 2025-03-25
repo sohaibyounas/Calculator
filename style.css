@@ -47,9 +47,24 @@ form .display input{
 
 form input.equal{
     width: 145px;
-    color: #33ffd8;
+    color: #fff;
+    background: #ff4500;
 }
 
 form input.operator{
-    color: #33ffd8;
+    color: #fff;
+    background: #ff4500;
+}
+
+
+/* media query 376px */
+@media screen and (max-width: 376px) {
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+    }
+
+    form input.equal {
+        width: 105px !important;
+    }
 }
